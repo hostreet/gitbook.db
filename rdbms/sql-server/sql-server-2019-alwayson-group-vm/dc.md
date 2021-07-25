@@ -100,3 +100,11 @@ install 시작 완료 후 재부팅
 
 ![](../../../.gitbook/assets/dcvm-dc-install21.png)
 
+### Domain 계정 접속
+
+dcvm 재부팅 후 도메인 계정으로 로그인 시도
+
+![](../../../.gitbook/assets/dcvm-dc-install22.png)
+
+
+
