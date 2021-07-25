@@ -74,9 +74,17 @@ sqlvm-primary DC 서버인 10.0.0.4 IP 추가
 
 ![](../../../.gitbook/assets/dcvm-dc-install35.png)
 
-sqlvm-secondary DC 서버인 10.0.0.4 IP 추
+sqlvm-secondary DC 서버인 10.0.0.4 IP 추가 
 
 ![](../../../.gitbook/assets/dcvm-dc-install36.png)
 
+sqlvm-primary RDP 접속 후 도메인 가입
 
+![](../../../.gitbook/assets/dcvm-dc-install37.png)
+
+sqlvm-secondary RDP 접속 후 도메인 가입
+
+![](../../../.gitbook/assets/dcvm-dc-install38.png)
+
+도메인 가입 후 재부팅하여 agdb\clooadmin의 도메인 계정으로 접
 
