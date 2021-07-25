@@ -99,7 +99,7 @@ mongos> sh.status()
 
 ### Hashed Shard
 
-hashdb에 샤딩 활성화\(Database를 미리 생성하지 않아도 됨\)
+hashdb\(DB명\)에 샤딩 활성화\(Database를 미리 생성하지 않아도 됨\)
 
 ```bash
 mongos> sh.enableSharding("hashdb")
@@ -283,7 +283,7 @@ switched to db hashdb
 
 ### Ranged Shard
 
-ranged에 샤딩 활성화\(Database를 미리 생성하지 않아도 됨\)
+ranged\(DB명\)에 샤딩 활성화\(Database를 미리 생성하지 않아도 됨\)
 
 ```bash
 mongos> sh.enableSharding("ranged")
