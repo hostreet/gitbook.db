@@ -301,7 +301,7 @@ mongos> sh.enableSharding("ranged")
 
 ```
 
-활성화 된 ranged에 coll이라는 collection의 샤딩키를 range 키로 지
+활성화 된 ranged에 coll이라는 collection의 no 필드를 range key로 지
 
 ```bash
 mongos> sh.shardCollection("ranged.coll", {no: 1})
