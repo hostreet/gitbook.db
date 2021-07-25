@@ -199,7 +199,7 @@ mongos> sh.status()
 
 ```
 
-### hashdb에 데이터 입력 테스트 
+### hashdb Database collection에 데이터 입력 테스트 
 
 ```bash
 
@@ -542,7 +542,7 @@ mongos> sh.status()
                          tag: zone3  { "no" : "600" } -->> { "no" : "900" }
 ```
 
-### Ranged에 데이터 입력 테스트
+### Ranged Database collection에 데이터 입력 테스트
 
 ```bash
 mongos> use ranged
