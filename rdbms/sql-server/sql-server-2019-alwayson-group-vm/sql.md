@@ -86,5 +86,11 @@ sqlvm-secondary RDP 접속 후 도메인 가입
 
 ![](../../../.gitbook/assets/dcvm-dc-install38.png)
 
-도메인 가입 후 재부팅하여 agdb\clooadmin의 도메인 계정으로 접
+도메인 가입 후 재부팅하여 agdb\clooadmin의 도메인 계정으로 접속 
+
+## SQL Server 재설치 
+
+SQL 설치미디어로 인스턴스 재설치
+
+
 
