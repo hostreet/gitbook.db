@@ -325,7 +325,7 @@ hash 키와 다르게 range 키는 샤드 zone 구성 및 key 범위를 지정�
 sh.addSahrdTag, sh.addShardToZone, sh.updateZoneKeyRange를 이용해 구성
 
 ```bash
-#shard0000을 zone1로 태그지
+#shard0000을 zone1로 태그지정 
 mongos> sh.addShardTag("shard0000","zone1")
 {
         "ok" : 1,
@@ -338,7 +338,7 @@ mongos> sh.addShardTag("shard0000","zone1")
                 }
         }
 }
-#shard0001을 zone2로 태그지
+#shard0001을 zone2로 태그지정 
 mongos> sh.addShardTag("shard0001","zone2")
 {
         "ok" : 1,
@@ -351,7 +351,7 @@ mongos> sh.addShardTag("shard0001","zone2")
                 }
         }
 }
-#shard0002을 zone3로 태그지
+#shard0002을 zone3로 태그지정 
 mongos> sh.addShardTag("shard0002","zone3")
 {
         "ok" : 1,
