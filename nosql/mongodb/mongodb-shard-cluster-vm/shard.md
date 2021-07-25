@@ -320,7 +320,7 @@ mongos> sh.shardCollection("ranged.coll", {no: 1})
 }
 ```
 
-hash 키와 다르게 range 키는 샤드 zone 구성 및 key 범위를 지정해 주어야 
+hash 키와 다르게 range 키는 샤드 zone 구성 및 key 범위를 지정해 주어야 함 
 
 sh.addSahrdTag, sh.addShardToZone, sh.updateZoneKeyRange를 이용해 구성
 
