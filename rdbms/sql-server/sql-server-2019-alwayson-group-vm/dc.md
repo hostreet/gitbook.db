@@ -70,7 +70,7 @@ Add a forest 선택 후 도메인명 agdb.com 입력
 
 ![](../../../.gitbook/assets/dcvm-dc-install14.png)
 
-암호입력
+DSRM 암호입력 
 
 ![](../../../.gitbook/assets/dcvm-dc-install15.png)
 
@@ -94,11 +94,11 @@ install 시작 완료 후 재부팅
 
 ![](../../../.gitbook/assets/dcvm-dc-install20.png)
 
-### Azure Portal DNS 설정
+### Azure Portal dcvm NIC DNS 설정
 
-리소스 그룹에서 Vnet의 DNS 서버 사용자 지정 IP\(dcvm 프라이빗 IP\) 입력
+리소스 그룹에서 dcvm NIC의 DNS 서버 사용자 지정 IP\(dcvm 프라이빗 IP\) 입력
 
-![](../../../.gitbook/assets/dcvm-dc-install21.png)
+![](../../../.gitbook/assets/dcvm-dc-install21%20%281%29.png)
 
 ### Domain 계정 접속
 
