@@ -233,7 +233,7 @@ mongos> db.coll.insert({ name : "ggg" , dept : "data group", status : "l"})
 WriteResult({ "nInserted" : 1 })
 mongos> db.coll.insert({ name : "ggg" , dept : "data group", status : "l"})
 WriteResult({ "nInserted" : 1 })
-#단일데이터로 넣어보며 3개의 shard 서버에 적절하게 들어가는지 테스트 하기위해 아래 for문 실
+#단일데이터로 넣어본  3개의 shard 서버에 적절하게 들어가는지 테스트 하기위해 아래 for문 실
 mongos> for(var i=0;i<100;i++){db.coll.insert({name:"abc"+i})}
 
 
@@ -279,7 +279,7 @@ switched to db hashdb
 
 ```
 
-각 shard 서버에 hashed 키로 데이터가 적절하게 분배되어 입력됨
+각 shard 서버에 hash 키로 데이터가 적절하게 분배 되어 입력됨
 
 ### Ranged Shard
 
