@@ -451,7 +451,7 @@ mongos> sh.updateZoneKeyRange("ranged.coll",{no:"600"},{no:"900"},"zone3")
 ```
 
 {% hint style="info" %}
-range 범위 업데이트시 이상하게 1000이상 숫자 들어가면 아래와 같은 오류가남 추후 확인 
+range 범위 업데이트시 이상하게 1000이상 숫자 들어가면 아래와 같은 오류가 남 추후 확인 
 {% endhint %}
 
 ```bash
