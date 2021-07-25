@@ -88,7 +88,7 @@ Create DNS delegation 옵션은 정확히 모르겠으나 체크 해제 후 넘�
 
 ![](../../../.gitbook/assets/dcvm-dc-install19.png)
 
-install 시작 완료 후 재부
+install 시작 완료 후 재부팅 
 
 ![](../../../.gitbook/assets/dcvm-dc-install20.png)
 
