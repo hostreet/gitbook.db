@@ -6,6 +6,8 @@ description: Azure DomainController VM 배포 및 설치
 
 ## Azure Portal에서 dcvm RDP 접속
 
+### role and features 설치
+
 Add roles and features 클릭 
 
 ![](../../../.gitbook/assets/dcvm-dc-install.png)
@@ -58,7 +60,7 @@ AD 서비스와 DNS Sever 체크 후 다음
 
 ![](../../../.gitbook/assets/dcvm-dc-install12.png)
 
-## Domain Controller 승격
+### Domain Controller 승격
 
 promote this server to a domain controller 클릭
 
@@ -76,7 +78,7 @@ Create DNS delegation 옵션은 정확히 모르겠으나 체크 해제 후 넘�
 
 ![](../../../.gitbook/assets/dcvm-dc-install16%20%281%29.png)
 
-다
+다음 
 
 ![](../../../.gitbook/assets/dcvm-dc-install17.png)
 
@@ -91,4 +93,10 @@ Create DNS delegation 옵션은 정확히 모르겠으나 체크 해제 후 넘�
 install 시작 완료 후 재부팅 
 
 ![](../../../.gitbook/assets/dcvm-dc-install20.png)
+
+### Azure Portal DNS 설정
+
+리소스 그룹에서 Vnet의 DNS 서버 사용자 지정 IP\(dcvm 프라이빗 IP\) 입력
+
+![](../../../.gitbook/assets/dcvm-dc-install21.png)
 
