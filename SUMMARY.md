@@ -17,4 +17,5 @@
     * [1. MongoDB 설치](nosql/mongodb/mongodb-shard-cluster-vm/install.md)
     * [2. MongoDB 서버 세팅](nosql/mongodb/mongodb-shard-cluster-vm/srvset.md)
     * [3. Sharding 구성](nosql/mongodb/mongodb-shard-cluster-vm/shard.md)
+    * [4. compass 사용](nosql/mongodb/mongodb-shard-cluster-vm/cmps.md)
 
