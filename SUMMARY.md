@@ -1,11 +1,6 @@
 # Table of contents
 
-* [Database blog](README.md)
-
-## NOSQL
-
-* [MongoDB](nosql/mongodb/README.md)
-  * [MongoDB Shard Cluster\(VM\)](nosql/mongodb/mongodb-shard-cluster-vm.md)
+* [Database study book](README.md)
 
 ## RDBMS
 
@@ -14,4 +9,12 @@
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql.md)
 * [MySQL](rdbms/mysql.md)
+
+## NOSQL
+
+* [MongoDB](nosql/mongodb/README.md)
+  * [MongoDB Shard Cluster\(VM\)](nosql/mongodb/mongodb-shard-cluster-vm/README.md)
+    * [1. MongoDB 설치](nosql/mongodb/mongodb-shard-cluster-vm/install.md)
+    * [2. MongoDB 서버 세팅](nosql/mongodb/mongodb-shard-cluster-vm/srvset.md)
+    * [3. Sharding 구성](nosql/mongodb/mongodb-shard-cluster-vm/shard.md)
 

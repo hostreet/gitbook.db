@@ -1,2 +1,2 @@
-# Database blog
+# Database study book
 
