@@ -126,7 +126,7 @@ mongos> sh.enableSharding("hashdb")
 \(이 부분은 추후 검토\)
 {% endhint %}
 
-활성화 된 hashdb에 coll이라는 collection의 샤딩키\(\_id\)를 hash 키로 지
+활성화 된 hashdb에 coll이라는 collection의 샤딩키\(\_id\)를 hash 키로 지정 
 
 ```bash
 mongos> sh.shardCollection("hashdb.coll",{_id : "hashed"})
@@ -301,7 +301,7 @@ mongos> sh.enableSharding("ranged")
 
 ```
 
-활성화 된 ranged에 coll이라는 collection의 no 필드를 range key로 지
+활성화 된 ranged에 coll이라는 collection의 no 필드를 range key로 지정 
 
 ```bash
 mongos> sh.shardCollection("ranged.coll", {no: 1})
@@ -593,5 +593,5 @@ ranged
 
 ```
 
-각 설정해둔 range key 범위에 알맞게 들어
+각 설정해둔 range key 범위에 알맞게 들어감 
 
