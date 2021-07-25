@@ -562,7 +562,7 @@ mongos> db.coll.find()
 mongos> exit
 bye
 
-#port 30001 shard 서버 접
+#port 30001 shard 서버 접속 
 C:\Users\clooadmin>mongo --port 30001
 > use ranged
 switched to db ranged
