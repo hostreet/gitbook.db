@@ -50,11 +50,45 @@ AD 서비스와 DNS Sever 체크 후 다음
 
 ![](../../../.gitbook/assets/dcvm-dc-install10%20%281%29.png)
 
-설치되는 동안 리소스 그룹에서 dcvm NIC IP 구성에서 프라이빗 IP 주소를 정적으로 변
+설치되는 동안 리소스 그룹에서 dcvm NIC IP 구성에서 프라이빗 IP 주소를 정적으로 변경 
 
 ![](../../../.gitbook/assets/dcvm-dc-install11.png)
 
 정적으로 변경 후 저장, dcvm, sqlvm 모두 프라이빗 IP를 정적으로 변경\(PIP는 모두 정적으로 생성됨\) 
 
 ![](../../../.gitbook/assets/dcvm-dc-install12.png)
+
+## Domain Controller 승격
+
+promote this server to a domain controller 클릭
+
+![](../../../.gitbook/assets/dcvm-dc-install13.png)
+
+Add a forest 선택 후 도메인명 agdb.com 입력
+
+![](../../../.gitbook/assets/dcvm-dc-install14.png)
+
+암호입력
+
+![](../../../.gitbook/assets/dcvm-dc-install15.png)
+
+Create DNS delegation 옵션은 정확히 모르겠으나 체크 해제 후 넘어감\(체크시 next 불가\)    
+
+![](../../../.gitbook/assets/dcvm-dc-install16%20%281%29.png)
+
+다
+
+![](../../../.gitbook/assets/dcvm-dc-install17.png)
+
+다음 
+
+![](../../../.gitbook/assets/dcvm-dc-install18.png)
+
+다음 
+
+![](../../../.gitbook/assets/dcvm-dc-install19.png)
+
+install 시작 완료 후 재부
+
+![](../../../.gitbook/assets/dcvm-dc-install20.png)
 
