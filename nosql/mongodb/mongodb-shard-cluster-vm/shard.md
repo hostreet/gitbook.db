@@ -126,7 +126,7 @@ mongos> sh.enableSharding("hashdb")
 \(이 부분은 추후 검토\)
 {% endhint %}
 
-활성화 된 hashdb에 coll이라는 collection의 샤딩키를 hash 키로 지
+활성화 된 hashdb에 coll이라는 collection의 샤딩키\(\_id\)를 hash 키로 지
 
 ```bash
 mongos> sh.shardCollection("hashdb.coll",{_id : "hashed"})
