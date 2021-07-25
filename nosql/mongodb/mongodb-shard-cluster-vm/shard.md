@@ -409,7 +409,7 @@ mongos> sh.addShardToZone("shard0002","zone3")
 ```
 
 ```bash
-#zone1의 샤드키 범위 지정 no 필드를 0~500 까
+#zone1의 샤드키 범위 지정 no 필드를 0~500 까지 
 mongos> sh.updateZoneKeyRange("ranged.coll",{no:"0"},{no:"500"},"zone1")
 {
         "ok" : 1,
@@ -422,7 +422,7 @@ mongos> sh.updateZoneKeyRange("ranged.coll",{no:"0"},{no:"500"},"zone1")
                 }
         }
 }
-#zone2의 샤드키 범위 지정 no 필드를 500~600 까
+#zone2의 샤드키 범위 지정 no 필드를 500~600 까지 
 mongos> sh.updateZoneKeyRange("ranged.coll",{no:"500"},{no:"600"},"zone2")
 {
         "ok" : 1,
@@ -435,7 +435,7 @@ mongos> sh.updateZoneKeyRange("ranged.coll",{no:"500"},{no:"600"},"zone2")
                 }
         }
 }
-#zone3의 샤드키 범위 지정 no 필드를 600~900 까
+#zone3의 샤드키 범위 지정 no 필드를 600~900 까지 
 mongos> sh.updateZoneKeyRange("ranged.coll",{no:"600"},{no:"900"},"zone3")
 {
         "ok" : 1,
