@@ -555,6 +555,10 @@ mongos> db.coll.insert({no:"550", name : "bbb"})
 WriteResult({ "nInserted" : 1 })
 mongos> db.coll.insert({no:"850", name : "ccc"})
 WriteResult({ "nInserted" : 1 })
+mongos> db.coll.find()
+{ "_id" : ObjectId("60fd0bf44a6c5f0f8c3cf355"), "no" : "1", "name" : "aaa" }
+{ "_id" : ObjectId("60fd0c264a6c5f0f8c3cf356"), "no" : "550", "name" : "bbb" }
+{ "_id" : ObjectId("60fd0c534a6c5f0f8c3cf357"), "no" : "850", "name" : "ccc" }
 mongos> exit
 bye
 
