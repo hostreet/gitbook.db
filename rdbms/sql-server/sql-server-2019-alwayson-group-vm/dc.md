@@ -106,7 +106,7 @@ dcvm 재부팅 후 도메인 계정으로 로그인 시도
 
 ![](../../../.gitbook/assets/dcvm-dc-install22.png)
 
-### 도메인 계정 구성 
+### Domain 계정 구성 
 
 docs 상으로 보면 설치 계정과 서비스 계정을 구분하여 진행함 
 
