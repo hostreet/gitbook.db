@@ -6,7 +6,7 @@ description: Azure DomainController VM 배포 및 설치
 
 ## Azure Portal에서 dcvm RDP 접속
 
-### role and features 설치
+### Role and features 설치
 
 Add roles and features 클릭 
 
