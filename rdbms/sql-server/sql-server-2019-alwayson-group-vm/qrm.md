@@ -68,7 +68,13 @@ SQL Server Network 서비스에서 TCP/IP에서 속성 클릭
 
 ![](../../../.gitbook/assets/qrmset11.png)
 
+구성 완료 후 커넥션 확
 
+![](../../../.gitbook/assets/qrmset12%20%281%29.png)
+
+{% hint style="info" %}
+SQLVM-PRIMARY와 SQLVM-SECONDARY 서버 양쪽에서 윈도우 인증으로 접속한 상태 
+{% endhint %}
 
 
 

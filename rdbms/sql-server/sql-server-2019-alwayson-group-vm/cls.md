@@ -56,5 +56,7 @@ SQLVM-PRIMARY 도메인 주소 입력 후 추가
 클러스터 생성시 GUI 보다는 아래 shell 스트립트로 진행하는것이 좋을듯
 {% endhint %}
 
+```text
 
+```
 
