@@ -142,7 +142,7 @@ Data 디렉토리 구
 
 ![](../../../.gitbook/assets/sqlvm-primary-reinstall13.png)
 
-TempDB 디렉토리 확인 , 다
+TempDB 디렉토리 확인 , 다음 
 
 ![](../../../.gitbook/assets/sqlvm-primary-reinstall14.png)
 
