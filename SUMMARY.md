@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Database study book](README.md)
+* [Database study gitbook](README.md)
 
 ## RDBMS
 

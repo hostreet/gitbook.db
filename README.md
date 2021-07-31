@@ -1,2 +1,2 @@
-# Database study book
+# Database study gitbook
 
