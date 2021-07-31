@@ -13,7 +13,9 @@
     * [5. Quorum 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/qrm.md)
     * [6. Load Banlancer 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/lb.md)
 * [Oracle](rdbms/oracle.md)
-* [PostgreSQL](rdbms/postgresql.md)
+* [PostgreSQL](rdbms/postgresql/README.md)
+  * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl.md)
+  * [PosgreSQL Citus Sharding\(VM\)](rdbms/postgresql/pgcitus.md)
 * [MySQL](rdbms/mysql.md)
 
 ## NOSQL
