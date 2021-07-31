@@ -88,6 +88,10 @@ sqlvm-secondary RDP 접속 후 도메인 가입
 
 도메인 가입 후 재부팅하여 agdb\clooadmin의 도메인 계정으로 접속 
 
+{% hint style="info" %}
+Azure Portal에서 IP DNS 설정 후 도메인 가입 오류가 발생할 수 있음 -&gt; 재부팅 후 정상 작
+{% endhint %}
+
 ## SQL Server 재설치 
 
 SQL 설치미디어로 인스턴스 재설치

@@ -2,7 +2,7 @@
 description: SQLVM-PRIMARY 와 SQLVM-SECONDARY 중 1대에서 진행
 ---
 
-# 4. Cluster 구성
+# 4. Failover Cluster 구성
 
 ## Failover Cluster 생
 

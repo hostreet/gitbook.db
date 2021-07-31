@@ -9,7 +9,7 @@
     * [1. Azure VM Resource 배포](rdbms/sql-server/sql-server-2019-alwayson-group-vm/azure.md)
     * [2. Domain Controller 설치](rdbms/sql-server/sql-server-2019-alwayson-group-vm/dc.md)
     * [3. SQL Server 설치](rdbms/sql-server/sql-server-2019-alwayson-group-vm/sql.md)
-    * [4. Cluster 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/cls.md)
+    * [4. Failover Cluster 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/cls.md)
     * [5. LB 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/lb.md)
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql.md)
