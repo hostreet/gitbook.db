@@ -14,11 +14,11 @@ Create Cluster 클
 
 ![](../../../.gitbook/assets/sqlvm-primary-cluster2.png)
 
-체크박스 체크 후 다
+다음 
 
 ![](../../../.gitbook/assets/sqlvm-primary-cluster3.png)
 
-SQLVM-PRIMARY 도메인 주소 입력 후 추가
+SQLVM-PRIMARY, SQLVM-SECONDARY 입력 후 다음 
 
 ![](../../../.gitbook/assets/sqlvm-primary-cluster4.png)
 
