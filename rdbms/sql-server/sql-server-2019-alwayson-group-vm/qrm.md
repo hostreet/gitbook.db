@@ -73,7 +73,8 @@ SQL Server Network 서비스에서 TCP/IP에서 속성 클릭
 ![](../../../.gitbook/assets/qrmset12%20%281%29.png)
 
 {% hint style="info" %}
-SQLVM-PRIMARY와 SQLVM-SECONDARY 서버 양쪽에서 윈도우 인증으로 접속한 상태 
+SQLVM-PRIMARY와 SQLVM-SECONDARY 각 서버에서 윈도우 인증으로 접속한 상태   
+한 서버에서 양쪽 두 서버 둘다 윈도우 인증으로 접속 가
 {% endhint %}
 
 
