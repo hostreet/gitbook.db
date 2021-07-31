@@ -43,7 +43,7 @@ SQLVM-PRIMARY, SQLVM-SECONDARY 입력 후 다음
 ![](../../../.gitbook/assets/sqlvm-primary-cluster8.png)
 
 완료 클릭 후 클러스터 IP가 DHCP 형태로 할당 받아 서버 IP와 중복되어 일부 오류메세지 발생함  
-클러스터 IP를 변경하여 STATIC 으로 바꿔  
+클러스터 IP를 변경하여 STATIC 으로 바꿔줌   
 
 
 ![](../../../.gitbook/assets/sqlvm-primary-cluster9.png)
