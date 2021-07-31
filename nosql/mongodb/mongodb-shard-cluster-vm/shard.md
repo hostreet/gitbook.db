@@ -117,13 +117,10 @@ mongos> sh.enableSharding("hashdb")
 ```
 
 {% hint style="info" %}
-데이터가 존재하는 collection의 샤딩 절차와  빈 collection의 샤딩 절차가 다름
-
-테스트 진행에는 신규 Database를 생성하고 빈 collection으로 진행 
-
-데이터가 존재하는 collection의 경우 샤딩키 선택과 인덱스를 적절하게 적용해 주어야함
-
-\(이 부분은 추후 검토\)
+데이터가 존재하는 collection의 샤딩 절차와  빈 collection의 샤딩 절차가 다름  
+테스트 진행에는 신규 Database를 생성하고 빈 collection으로 진행  
+데이터가 존재하는 collection의 경우 샤딩키 선택과 인덱스를 적절하게 적용해 주어야 함  
+\(이 부분은 추후 검토\) 
 {% endhint %}
 
 활성화 된 hashdb에 coll이라는 collection의 샤딩키\(\_id\)를 hash 키로 지정 
