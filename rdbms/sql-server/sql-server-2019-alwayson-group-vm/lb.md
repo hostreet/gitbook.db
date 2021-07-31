@@ -1,2 +1,2 @@
-# 6. LB 구성
+# 6. Load Banlancer 구성
 
