@@ -74,7 +74,7 @@ SQL Server Network 서비스에서 TCP/IP에서 속성 클릭
 
 {% hint style="info" %}
 SQLVM-PRIMARY와 SQLVM-SECONDARY 각 서버에서 윈도우 인증으로 접속한 상태   
-\(한 서버에서 IP로 접속 양쪽 두 서버 윈도우 인증으로 접속 가능\) 
+\(한 서버에서 IP로 접속시 양쪽 두 서버 윈도우 인증으로 접속 가능\) 
 {% endhint %}
 
 
