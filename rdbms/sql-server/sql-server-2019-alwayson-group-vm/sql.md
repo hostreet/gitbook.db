@@ -92,5 +92,63 @@ sqlvm-secondary RDP 접속 후 도메인 가입
 
 SQL 설치미디어로 인스턴스 재설치
 
+sqlvm-primary, sqlvm-secondary 모두 agdb\clooadmin 도메인 계정으로 접속 후 개별 설
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall.png)
+
+SQL 설치미디어 실행 후 install
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall2.png)
+
+다음
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall3.png)
+
+다음
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall4.png)
+
+라이센스 승인 체크 후 다
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall5.png)
+
+Database Engine만 선택해도 되나 필요한 feature가 있으면 같이 설치, 다
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall6.png)
+
+인스턴스명 AGNODE로 명명, 다
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall7.png)
+
+SQL Server Agent, SQL Server Database Engine의 계정을 서비스 도메인 계정으로 설정, 여기서는 별도의 서비스 계정을 생성하지 않고 admin 계정인 agdb\clooadmin으로 진행
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall8.png)
+
+서비스 계정과 암호를 입력 후 Startup Type은 SQL Server Agent만 Automatic으로 바꿔줌 
+
+아래 볼륨 관리 권한 체크박스는 장애조치클러스터\(WSFC\) 사용시 각 노드에 개별적으로 구성된다고 하는데 일단 체크.. 볼륨 관리 권한 체크시 성능 향상에 도움이 된다고 
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall10.png)
+
+Collation 선택, 다
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall11.png)
+
+SA 계정 혼합 모드 사용 및 WINDOWS AD 계정 추가
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall12.png)
+
+Data 디렉토리 구
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall13.png)
+
+TempDB 디렉토리 확인 , 다
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall14.png)
+
+Install
+
+![](../../../.gitbook/assets/sqlvm-primary-reinstall15.png)
+
 
 
