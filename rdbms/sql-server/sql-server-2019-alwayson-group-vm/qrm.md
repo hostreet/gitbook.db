@@ -10,6 +10,8 @@ Azure Portal에서 아래와 같이 설정 후 나머지 옵션은 디폴트로 
 
 ![](../../../.gitbook/assets/storageaccnt%20%281%29.png)
 
+## Cloud Witness Quorum 생성 
+
 다시 SQLVM-PRIMARY 서버 접속 후 쿼럼 세팅 클
 
 ![](../../../.gitbook/assets/qrmset.png)
@@ -49,6 +51,22 @@ TLS 1.2 사용을 추가만 하는것인지? 아니면 TLS 1.2로만 사용을 �
 # Set the TLS version used by the PowerShell client to TLS 1.2.
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
 ```
+
+## 가용성 그룹 사용
+
+SQL Server configuration에서 SQL Server 서비스의 가용성 그룹 Enable 후 서버 재시작  
+SQLVM-PRIMARY, SQLVM-SECONDARY 모두 진  
+
+
+![](../../../.gitbook/assets/qrmset9.png)
+
+SQL Server Network 서비스에서 TCP/IP에서 속성 클릭  
+
+![](../../../.gitbook/assets/qrmset10.png)
+
+동적 포트를 1433 정적 포트로 변경, SQLVM-PRIMARY, SQLVM-SECONDARY 모두 진행 
+
+![](../../../.gitbook/assets/qrmset11.png)
 
 
 
