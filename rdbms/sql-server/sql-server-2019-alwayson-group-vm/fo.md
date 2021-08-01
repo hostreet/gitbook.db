@@ -79,7 +79,8 @@ Add Replica만 해줘도 SQLVM-PRIMARY 서버에 AG02 DB 다시 살아남
 
 ![](../../../.gitbook/assets/loadbalancer_set29.png)
 
-이후 다시 SQLVM-PRIMARY로 수동 Failover 시켜봄
+이후 다시 SQLVM-PRIMARY로 수동 Failover 시켜봄  
+\(리스너 100, 101도 접속이 잘됨\)
 
 ![](../../../.gitbook/assets/loadbalancer_set30.png)
 
