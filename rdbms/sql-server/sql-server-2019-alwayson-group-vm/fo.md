@@ -73,7 +73,9 @@ SQLVM-PRIMARY 서버에 Restoring인 DB를 삭제 후 SQLVM-SECONDARY 가용성 
 
 ![](../../../.gitbook/assets/loadbalancer_set28.png)
 
-가용성 그룹 생성과 동일하게 다시 생성함\(리스너는 새로 생성 X\)
+가용성 그룹 생성과 동일하게 다시 생성함\(리스너는 새로 생성 X\)  
+Add Replica만 해줘도 SQLVM-PRIMARY 서버에 AG02 DB 다시 살아남   
+
 
 ![](../../../.gitbook/assets/loadbalancer_set29.png)
 
