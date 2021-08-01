@@ -56,11 +56,15 @@ Automatic Failover 체크 해줘야 장애 발생시 자동 Failover
 
 ![](../../../.gitbook/assets/qrmset19.png)
 
-백업 옵션 적절히 선택 후 Listener와 Read-Only Routing은 패스 
+백업 옵션 적절히 선택 
 
 ![](../../../.gitbook/assets/qrmset20.png)
 
-동기화 옵션 선택에서 Automatic seeding 을 선
+리스너 생성 LSN01, 10.0.1.100 STATIC IP 설정 
+
+![](../../../.gitbook/assets/qrmset27.png)
+
+동기화 옵션 선택에서 Automatic seeding 을 선택 
 
 ![](../../../.gitbook/assets/qrmset21.png)
 
@@ -82,7 +86,7 @@ Database가 대용량일 경우 SQLVM-PRIMARY와 SQLVM-SECONDARY에 복원 후 j
 
 완료 후 SQLVM-PRIMARY서버에 다음과 같이 가용성 그룹이 생성됨 
 
-![](../../../.gitbook/assets/qrmset25%20%281%29.png)
+![](../../../.gitbook/assets/qrmset25%20%282%29.png)
 
 SQLVM-SECONDARY 서버에 직접 접속하여 동일하게 구성 되었고 DB클릭시 액세스 불가 에러 메세지 발생 
 
