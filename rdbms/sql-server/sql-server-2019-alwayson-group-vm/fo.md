@@ -34,9 +34,9 @@ Failover 대상 서버에 접속 후 진행
 
 ![](../../../.gitbook/assets/loadbalancer_set22.png)
 
-## SQLVM-PRIMARY 서버를 중지 시켜 장애상황 발생시 
+## 장애상황 발생시 자동 Failover
 
-SQLVM-PRIMARY 중
+SQLVM-PRIMARY 서버 중지 
 
 ![](../../../.gitbook/assets/loadbalancer_set23.png)
 
