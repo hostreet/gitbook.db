@@ -62,7 +62,8 @@ SQLVM-SECONDARY 서버는 가용성 그룹이 정상적으로 있으나 SQLVM-PR
 
 ![](../../../.gitbook/assets/loadbalancer_set26.png)
 
-SQLVM-PRIMARY 서버에 Restoring인 DB를 삭제 후 SQLVM-SECONDARY 가용성 그룹의 Replica 삭제 
+SQLVM-PRIMARY 서버에 Restoring인 DB를 삭제 후 SQLVM-SECONDARY 가용성 그룹의 Replica 삭제  
+\(Remove from Availability Group\) 
 
 ![](../../../.gitbook/assets/loadbalancer_set27.png)
 
