@@ -14,6 +14,7 @@
     * [6. AlwaysOn Group 생성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/ag.md)
     * [7. Load Balancer 구성](rdbms/sql-server/sql-server-2019-alwayson-group-vm/7.-load-balancer.md)
     * [8. 수동 Failover](rdbms/sql-server/sql-server-2019-alwayson-group-vm/fo.md)
+  * [SQL Server 2016 Failover Cluster Instance\(VM\)](rdbms/sql-server/fci.md)
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql/README.md)
   * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl.md)
