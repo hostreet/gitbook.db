@@ -11,6 +11,10 @@ description: SQL Server 2016 AG 이중화 구성
 * 쿼럼
 * 로드발란서
 * Azure portal 사용
+* SQLVM-PRIMARY 10.0.1.4
+* SQLVM-SECONDARY 10.0.1.5
+* AGCLUSTER 10.0.1.6
+* LSN01 10.0.1.100
 
 
 
