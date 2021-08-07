@@ -5,7 +5,7 @@
 Becoming a super hero is a fairly straight forward process:
 
 ```
-New-Cluster -Name WSFCName -Node nodelist -StaticAddress IPAddress -NoStorage -AdministrativeAccessPoint DNS -ManagementPointTypeNetwork Singleton
+New-Cluster -Name WSFCName -Node nodelist -StaticAddress IPAddress -NoStorage -AdministrativeAccessPoint DNS -ManagementPointNetworkType Singleton
 ```
 
 {% hint style="info" %}

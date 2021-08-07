@@ -19,7 +19,21 @@ SQL Server 2016과 차이점
 쿼럼 생성시\(Cloud Witness\) 2016 버전과 다르게 TLS 1.2 오류가 없었음 
 {% endhint %}
 
+## Cluster 생성시 IP 지정 방법 
 
+GUI 또는 Powershell로 기존 구문인 일반 static ip 만 지정시 DNN으로 클러스터가 생성됨 
+
+![](../../../.gitbook/assets/2019ver_cluster_dnn_lsn6.png)
+
+```text
+New-Cluster -Name 2019ClusterTest2 -Node sqlvm-primary, sqlvm-secondary -StaticAddress 10.0.1.200 -NoStorage -AdministrativeAccessPoint DNS -ManagementPointNetworkType Singleton
+```
+
+![](../../../.gitbook/assets/2019ver_cluster_dnn_lsn7.png)
+
+{% hint style="info" %}
+위와 같이 -ManagementPointNetworkType Singleton 옵션을 지정하면 기존 방식으로 IP를 지정할 수 있음 
+{% endhint %}
 
 
 
