@@ -154,5 +154,13 @@ Install
 
 ![](../../../.gitbook/assets/sqlvm-primary-reinstall15.png)
 
+설치 완료 후 SQL Server Configure Manager에서 네트워크 동적 포트를 정적 1433으로 변경 
 
+![](../../../.gitbook/assets/sqlserver_conf_port_check.png)
+
+![](../../../.gitbook/assets/sqlserver_conf_port_check2.png)
+
+{% hint style="info" %}
+간혹 포트로 인해 접속이 안되는 경우 발생, 꼭 확인하자.. 
+{% endhint %}
 

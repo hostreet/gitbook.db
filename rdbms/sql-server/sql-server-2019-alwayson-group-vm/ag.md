@@ -21,7 +21,7 @@ insert into dbo.test_tbl values(1,'aaa'),(2,'bbb'),(3,'ccc');
 
 select * from dbo.test_tbl
 
-backup database [ag01] to  disk = n'f:\backup\ag01.bak';
+backup database [ag01] to  disk = N'f:\backup\ag01.bak';
 ```
 
 {% hint style="info" %}

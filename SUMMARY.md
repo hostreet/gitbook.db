@@ -5,7 +5,10 @@
 ## RDBMS
 
 * [SQL Server](rdbms/sql-server/README.md)
-  * [SQL Servr 2019 AlwaysOn Group\(VM\)](rdbms/sql-server/ag.md)
+  * [SQL Servr 2019 AlwaysOn Group\(VM\)](rdbms/sql-server/ag/README.md)
+    * [4. Failover Cluster 구성](rdbms/sql-server/ag/wsfc.md)
+    * [5. Quorum 구성](rdbms/sql-server/ag/qrm.md)
+    * [7. Load Balancer 구성](rdbms/sql-server/ag/lb.md)
   * [SQL Server 2016 AlwaysOn Group\(VM\)](rdbms/sql-server/sql-server-2019-alwayson-group-vm/README.md)
     * [1. Azure VM Resource 배포](rdbms/sql-server/sql-server-2019-alwayson-group-vm/azure.md)
     * [2. Domain Controller 설치](rdbms/sql-server/sql-server-2019-alwayson-group-vm/dc.md)
