@@ -24,5 +24,7 @@ SQLVM-PRIMARY와 SQLVM-SECONDARY 모두 진행
 
 ![](../../../.gitbook/assets/vm_setting4.png)
 
+## Failover Clustering Feature 설치 
+
 
 
