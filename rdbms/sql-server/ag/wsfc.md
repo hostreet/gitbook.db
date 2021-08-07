@@ -26,7 +26,7 @@ GUI 또는 Powershell로 기존 구문인 일반 static ip 만 지정시 DNN으�
 ![](../../../.gitbook/assets/2019ver_cluster_dnn_lsn6.png)
 
 ```text
-New-Cluster -Name 2019ClusterTest2 -Node sqlvm-primary, sqlvm-secondary -StaticAddress 10.0.1.200 -NoStorage -AdministrativeAccessPoint DNS -ManagementPointNetworkType Singleton
+New-Cluster -Name 2019ClusterTest2 -Node sqlvm-primary, sqlvm-secondary -StaticAddress 10.0.1.200 -NoStorage -ManagementPointNetworkType Singleton
 ```
 
 ![](../../../.gitbook/assets/2019ver_cluster_dnn_lsn7.png)

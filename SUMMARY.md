@@ -20,6 +20,8 @@
     * [8. 수동 Failover](rdbms/sql-server/sql-server-2019-alwayson-group-vm/fo.md)
   * [SQL Server 2016 Failover Cluster Instance\(VM\)](rdbms/sql-server/fci/README.md)
     * [3. SQL Server 재설치](rdbms/sql-server/fci/sqlsrv.md)
+    * [4. Azure 공유 디스크 마운트](rdbms/sql-server/fci/sharedisk.md)
+    * [5. Failover Cluster 구성](rdbms/sql-server/fci/fci.md)
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql/README.md)
   * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl.md)
