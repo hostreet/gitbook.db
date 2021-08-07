@@ -26,5 +26,19 @@ SQLVM-PRIMARY와 SQLVM-SECONDARY 모두 진행
 
 ## Failover Clustering Feature 설치 
 
+설치 과정은 AlwaysOn Group 구성의 Failover Clustering Feature 설치와 동일 
+
+## 도메인 가입 
+
+구성 과정은 AlwaysOn Group 구성의 도메인 가입과 동일 
+
+### 도메인 가입전 Azure Portal NIC DNS 설정 
+
+구성 과정은 AlwaysOn Group 구성의 DNS 설정과 동일 
+
+ 
+
+
+
 
 
