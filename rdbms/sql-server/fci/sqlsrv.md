@@ -2,7 +2,7 @@
 description: FCI 구성을 위한 VM 준비
 ---
 
-# 3. SQL Server 재설치
+# 3. SQL Server 제거
 
 ## SQL IaaS 확장 제거 
 
