@@ -4,26 +4,73 @@ description: 'Azure VM 리소스는 portal과 powershell, cli script 배포가 �
 
 # 1. Azure VM Resource 배포
 
-## Azure Potal 접
+## Azure Potal 접속 후 리소스 배포 
 
-Becoming a super hero is a fairly straight forward process:
+### DCVM 배포 
 
-```
-$ give me super-powers
-```
+리소스 배포는 Powershell, CLI로 배포 가능 
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+![](../../../.gitbook/assets/dcvm-portal.png)
 
-Once you're strong enough, save the world:
+![](../../../.gitbook/assets/dcvm-portal2.png)
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+![](../../../.gitbook/assets/dcvm-portal3.png)
 
+![](../../../.gitbook/assets/dcvm-portal4.png)
 
+![](../../../.gitbook/assets/dcvm-portal5.png)
+
+![](../../../.gitbook/assets/dcvm-portal6.png)
+
+![](../../../.gitbook/assets/dcvm-portal7.png)
+
+![](../../../.gitbook/assets/dcvm-portal8.png)
+
+![](../../../.gitbook/assets/dcvm-portal9.png)
+
+### SQLVM-PRIMARY VM 배포 
+
+![](../../../.gitbook/assets/sqlvm-portal1.png)
+
+![](../../../.gitbook/assets/sqlvm-portal3%20%281%29.png)
+
+![](../../../.gitbook/assets/sqlvm-portal5%20%281%29.png)
+
+![](../../../.gitbook/assets/sqlvm-portal4%20%281%29.png)
+
+![](../../../.gitbook/assets/sqlvm-portal6.png)
+
+![](../../../.gitbook/assets/sqlvm-portal7.png)
+
+![](../../../.gitbook/assets/sqlvm-portal8.png)
+
+![](../../../.gitbook/assets/sqlvm-portal9.png)
+
+![](../../../.gitbook/assets/sqlvm-portal10.png)
+
+![](../../../.gitbook/assets/sqlvm-portal11.png)
+
+![](../../../.gitbook/assets/sqlvm-portal12.png)
+
+![](../../../.gitbook/assets/sqlvm-portal13.png)
+
+### SQLVM-SECONDARY VM 배포 
+
+![](../../../.gitbook/assets/sqlvm2-portal.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal2.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal5%20%281%29.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal4.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal5.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal6.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal7.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal8.png)
+
+![](../../../.gitbook/assets/sqlvm2-portal9.png)
 
