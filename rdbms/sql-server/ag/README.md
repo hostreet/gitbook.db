@@ -1,4 +1,4 @@
-# SQL Servr 2019 AlwaysOn Group\(VM\)
+# SQL Server 2019 AlwaysOn Group\(VM\)
 
 ## Getting Super Powers
 

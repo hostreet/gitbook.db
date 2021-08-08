@@ -46,5 +46,50 @@ Install
 
 ![](../../../.gitbook/assets/vm_setting27.png)
 
+## SQLVM-SECONDARY에 SQL Server Failover Cluster 노드 추가 
+
+Add node to a SQL Server failover cluster 클릭 
+
+![](../../../.gitbook/assets/vm_setting11%20%281%29.png)
+
+![](../../../.gitbook/assets/vm_setting28.png)
+
+![](../../../.gitbook/assets/vm_setting29.png)
+
+![](../../../.gitbook/assets/vm_setting30.png)
+
+![](../../../.gitbook/assets/vm_setting31.png)
+
+Install 
+
+![](../../../.gitbook/assets/vm_setting32%20%281%29.png)
+
+SQL Server 2016 Configure Manager 실행 후 1433 포트 확인 
+
+![](../../../.gitbook/assets/vm_setting33.png)
+
+![](../../../.gitbook/assets/vm_setting34.png)
+
+## 설치 후 구성 확인 
+
+SQLVM-PRIMARY 서버 접속 후 host 서버, 공유 디스크를 볼 수 있음 
+
+![](../../../.gitbook/assets/vm_setting35.png)
+
+{% hint style="info" %}
+SQLVM-PRIMARY, SQLVM-SECONDARY 서버 IP 10.0.1.4, 10.0.1.5 접속은 불가   
+SQL Server 설치시 인스턴스 IP 10.0.1.7에만 접속 가능 
+{% endhint %}
+
+SQLVM-SECONDARY 접속 후 LB 구성 없이 접속 불가 
+
+![](../../../.gitbook/assets/vm_setting36.png)
+
+{% hint style="info" %}
+공유 디스크가 SQLVM-PRIMARY에 host 되어 SQLVM-SECONDARY는 보이지 않음   
+\(Failover가 되어 SQLVM-SECONDARY로 host 되면 바뀌게 됨\) 
+{% endhint %}
+
+  
 
 
