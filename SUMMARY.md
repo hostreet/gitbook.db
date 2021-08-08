@@ -26,6 +26,7 @@
     * [6. Quarum 구성](rdbms/sql-server/fci/qrm.md)
     * [7. SQL Server FCI 설치](rdbms/sql-server/fci/fci-2.md)
     * [8. Load Banlancer 구성](rdbms/sql-server/fci/fcilb.md)
+    * [9. 수동 Failover](rdbms/sql-server/fci/fcifo.md)
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql/README.md)
   * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl.md)
