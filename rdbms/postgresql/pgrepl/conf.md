@@ -78,7 +78,7 @@ pg-slave 중지
 systemctl stop postgresql-11
 ```
 
-postgres 유 변경 
+postgres로 유 변경 
 
 ```text
 su - postgres 
