@@ -163,9 +163,9 @@ Replication을 맺고 pg\_stats의 통계 때문인지 카운트가 다 0으로 
 실제 테이블 카운트 조회시 정상적으로 카운팅 됨 
 {% endhint %}
 
-analyze 구문으로 테이블별 통계 업데이트 하니 업데이트한 테이블만 정상적으로 카운트가 나옴 
+analyze 변수 없이 실행하면 현재 세션의 database의 모든 테이에 대해 통계 업데이트  
 
-![](../../../.gitbook/assets/pg11_setup8.png)
+![](../../../.gitbook/assets/pg11_setup8%20%281%29.png)
 
   
 
