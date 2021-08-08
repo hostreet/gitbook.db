@@ -12,9 +12,17 @@ New SQL Server failover cluster installation 설치
 
 ![](../../../.gitbook/assets/vm_setting13.png)
 
+![](../../../.gitbook/assets/vm_setting23.png)
+
 ![](../../../.gitbook/assets/vm_setting15.png)
 
-![](../../../.gitbook/assets/vm_setting16.png)
+![](../../../.gitbook/assets/vm_setting24.png)
+
+![](../../../.gitbook/assets/vm_setting25.png)
+
+![](../../../.gitbook/assets/vm_setting26.png)
+
+![](../../../.gitbook/assets/vm_setting27.png)
 
 
 
