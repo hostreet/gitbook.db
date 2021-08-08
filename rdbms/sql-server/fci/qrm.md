@@ -12,7 +12,13 @@
 
 ![](../../../.gitbook/assets/vm_setting10.png)
 
+## 클러스에 Azure 공유 디스크 추가 
 
+![](../../../.gitbook/assets/vm_setting19.png)
+
+VM에 마운트한 FCIDisk가 추가 됨 
+
+![](../../../.gitbook/assets/vm_setting20.png)
 
 
 

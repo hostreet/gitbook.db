@@ -19,6 +19,8 @@ New-Cluster -Name <FailoverCluster-Name> -Node ("<node1>","<node2>") –StaticAd
 ```
 
 {% hint style="info" %}
-Windows Server 2019시 Powershell로 IP 지정하여 생성 
+Windows Server 2019 버전은 Powershell로 IP 지정하여 생성  
 {% endhint %}
+
+
 
