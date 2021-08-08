@@ -90,6 +90,41 @@ SQLVM-SECONDARY 접속 후 LB 구성 없이 접속 불가
 \(Failover가 되어 SQLVM-SECONDARY로 host 되면 바뀌게 됨\) 
 {% endhint %}
 
+## SQL Server IaaS 확장 
+
+```text
+# Get the existing compute VM
+$vm = Get-AzVM -Name 'sqlvm-primary' -ResourceGroupName 'alwayson'
+
+# Register SQL VM with 'Lightweight' SQL IaaS agent
+New-AzSqlVM -Name $vm.Name -ResourceGroupName $vm.ResourceGroupName -Location $vm.Location `
+   -LicenseType PAYG -SqlManagementType LightWeight
+   
+   
+Name          ResourceGroupName LicenseType Sku        Offer          SqlManagementType
+----          ----------------- ----------- ---        -----          -----------------
+sqlvm-primary alwayson          PAYG        Enterprise SQL2016-WS2016 LightWeight      
+
+
+
+# Get the existing compute VM
+$vm = Get-AzVM -Name 'sqlvm-secondary' -ResourceGroupName 'alwayson'
+
+# Register SQL VM with 'Lightweight' SQL IaaS agent
+New-AzSqlVM -Name $vm.Name -ResourceGroupName $vm.ResourceGroupName -Location $vm.Location `
+   -LicenseType PAYG -SqlManagementType LightWeight
+   
+   
+Name            ResourceGroupName LicenseType Sku        Offer          SqlManagementType
+----            ----------------- ----------- ---        -----          -----------------
+sqlvm-secondary alwayson          PAYG        Enterprise SQL2016-WS2016 LightWeight      
+
+```
+
+제거 했던 SQL 가상 머신이 생성됨 
+
+![](../../../.gitbook/assets/vm_setting45.png)
+
   
 
 
