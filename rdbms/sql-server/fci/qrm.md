@@ -16,9 +16,11 @@
 
 ![](../../../.gitbook/assets/vm_setting19.png)
 
-VM에 마운트한 FCIDisk가 추가 됨 
+VM에 마운트한 FCIDisk가 공유 디스크로 추가 됨 
 
 ![](../../../.gitbook/assets/vm_setting20.png)
 
+공유 디스크 네이밍 
 
+![](../../../.gitbook/assets/vm_setting21.png)
 
