@@ -17,6 +17,49 @@ Load Balancer 생성시 Public IP SKU와 맞춰 줌
 상태프로브 : 59999\(HP59999\)  
 부하분산규칙 : FCIRULE
 
+## 클러스터 프로브 구성 
+
+SQLVM-PRIMARY 서버에서 한번만 해주니 SQLVM-SECONDARY 서버에서 10.0.1.7 접속이 잘 됨 
+
+```text
+PS C:\Users\clooadmin.AGDB> Get-ClusterNetwork
+
+Name              State Metric             Role
+----              ----- ------             ----
+Cluster Network 1    Up  69600 ClusterAndClient
+
+PS C:\Users\clooadmin.AGDB> Get-ClusterResource
+
+Name                       State   OwnerGroup           ResourceType    
+----                       -----   ----------           ------------    
+Cloud Witness              Online  Cluster Group        Cloud Witness   
+Cluster IP Address         Online  Cluster Group        IP Address      
+Cluster Name               Online  Cluster Group        Network Name    
+SQL Data                   Online  SQL Server (FCINODE) Physical Disk   
+SQL IP Address 1 (FCINET)  Online  SQL Server (FCINODE) IP Address      
+SQL Network Name (FCINET)  Online  SQL Server (FCINODE) Network Name    
+SQL Server (FCINODE)       Online  SQL Server (FCINODE) SQL Server      
+SQL Server Agent (FCINODE) Online  SQL Server (FCINODE) SQL Server Agent
+SQL Server CEIP (FCINODE)  Offline SQL Server (FCINODE) Generic Service 
+
+
+
+PS C:\Users\clooadmin.AGDB> 
+
+$ClusterNetworkName = "Cluster Network 1"
+$IPResourceName = "SQL IP Address 1 (FCINET)" 
+$ILBIP = "10.0.1.7" 
+[int]$ProbePort = 59999
+
+Import-Module FailoverClusters
+
+Get-ClusterResource $IPResourceName | Set-ClusterParameter -Multiple @{"Address"="$ILBIP";"ProbePort"=$ProbePort;"SubnetMask"="255.255.255.255";"Network"="$ClusterNetworkName";"EnableDhcp"=0}
+
+
+WARNING: The properties were stored, but not all changes will take effect until SQL IP Address 1 (FCINET) is taken offline and then online again.
+
+```
+
   
 
 
