@@ -78,11 +78,16 @@ pg-slave 중지
 systemctl stop postgresql-11
 ```
 
-postgres로 유 변경 
+postgres로 권한 변경   
 
 ```text
 su - postgres 
 ```
+
+{% hint style="info" %}
+pg\_basebackup 및 디렉토리 생성시 꼭 postgres 권한으로 진행   
+\(root로 진행시 소유자 및 권한 변경이 필요함\) 
+{% endhint %}
 
 pg-slave 데이터 백업 
 
@@ -99,14 +104,13 @@ rm -rf /var/lib/pgsql/11/data/*
 pg\_basebackup 
 
 ```text
-pg_basebackup -h 10.1.0.4 -D /var/lib/pgsql/11/data -U usr_repl -P -v -X stream
+pg_basebackup -h 10.1.0.4 -D /var/lib/pgsql/11/data -U usr_repl -P -v -R -X stream -C -S node2
 ```
 
-![](../../../.gitbook/assets/pg11_setup4.png)
+![](../../../.gitbook/assets/pg11_setup5.png)
 
 {% hint style="info" %}
-pg\_basebackup 옵션중 복제 슬롯이 있음, 버전마다 확인 필요   
-여기서는 복제 슬롯없이 진행함 
+pg\_basebackup의 각 옵션 확인 필수 
 {% endhint %}
 
 postgresql.conf 설정 
@@ -126,27 +130,28 @@ failover\_trigger 폴더 생성
 mkdir /var/lib/pgsql/11/failover_trigger 
 ```
 
-recovery.conf 파일 생성 
+recovery.conf 파일 생성 확인  
 
 ```text
 vi /var/lib/pgsql/11/data/recovery.conf 
 
-standby_mode = on # 읽기 전용 작업 
-primary_conninfo = 'host=10.1.0.4 port=5432 user=usr_repl password=replica' # 연결정보 
-trigger_file = '/var/lib/pgsql/11/failover_trigger' # failover 트리거 파일 경로 
 
-#위 내용 입력 
+standby_mode = 'on'
+primary_conninfo = 'user=usr_repl password=replica host=10.1.0.4 port=5432 sslmode=prefer sslcompression=0 krbsrvname=postgres target_session_attrs=any'
+primary_slot_name = 'node2'
+
+#위 내용 확인  
 ```
+
+{% hint style="info" %}
+pg\_basebackup의 복제 슬롯 옵션시? recovery.conf 파일이 자동 생성됨 
+{% endhint %}
 
 pg-slave 실행 
 
 ```text
 systemctl start postgresql-11 
 ```
-
-아래와 같이 recovery.done으로 바뀜 
-
-![](../../../.gitbook/assets/pg11_setup5.png)
 
 ## 데이터 확인 
 

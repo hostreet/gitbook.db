@@ -1,8 +1,8 @@
 # 4. 수동 Failover
 
-## Getting Super Powers
+## Replication 테스트 
 
-Becoming a super hero is a fairly straight forward process:
+새로운 DB 생성 
 
 ```
 $ give me super-powers
