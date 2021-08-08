@@ -82,6 +82,10 @@ SQL IP Address 1 (FCINET) DhcpAddress           0.0.0.0              String
 SQL IP Address 1 (FCINET) DhcpSubnetMask        255.0.0.0            String  
 ```
 
+접속 확인 
+
+![](../../../.gitbook/assets/vm_setting37.png)
+
   
 
 
