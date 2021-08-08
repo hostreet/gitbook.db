@@ -86,6 +86,8 @@ SQL IP Address 1 (FCINET) DhcpSubnetMask        255.0.0.0            String
 
 ![](../../../.gitbook/assets/vm_setting37.png)
 
+
+
   
 
 
