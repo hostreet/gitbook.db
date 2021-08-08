@@ -34,6 +34,7 @@
     * [1. Azure VM Resource 배포](rdbms/postgresql/pgrepl/vm-resource.md)
     * [2. PostgreSQL 11 설치](rdbms/postgresql/pgrepl/pg-install.md)
     * [3. Config 설정](rdbms/postgresql/pgrepl/conf.md)
+    * [4. 수동 Failover](rdbms/postgresql/pgrepl/failover.md)
   * [PosgreSQL Citus Sharding\(VM\)](rdbms/postgresql/pgcitus.md)
 * [MySQL](rdbms/mysql.md)
 
