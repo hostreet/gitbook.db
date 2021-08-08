@@ -60,6 +60,28 @@ WARNING: The properties were stored, but not all changes will take effect until 
 
 ```
 
+구성 확인 
+
+```text
+PS C:\Users\clooadmin.AGDB> Get-ClusterResource $IPResourceName | Get-ClusterParameter
+
+Object                    Name                  Value                Type    
+------                    ----                  -----                ----    
+SQL IP Address 1 (FCINET) Network               Cluster Network 1    String  
+SQL IP Address 1 (FCINET) Address               10.0.1.7             String  
+SQL IP Address 1 (FCINET) SubnetMask            255.255.255.255      String  
+SQL IP Address 1 (FCINET) EnableNetBIOS         1                    UInt32  
+SQL IP Address 1 (FCINET) OverrideAddressMatch  0                    UInt32  
+SQL IP Address 1 (FCINET) EnableDhcp            0                    UInt32  
+SQL IP Address 1 (FCINET) ProbePort             59999                UInt32  
+SQL IP Address 1 (FCINET) ProbeFailureThreshold 0                    UInt32  
+SQL IP Address 1 (FCINET) LeaseObtainedTime     1/1/0001 12:00:00 AM DateTime
+SQL IP Address 1 (FCINET) LeaseExpiresTime      1/1/0001 12:00:00 AM DateTime
+SQL IP Address 1 (FCINET) DhcpServer            255.255.255.255      String  
+SQL IP Address 1 (FCINET) DhcpAddress           0.0.0.0              String  
+SQL IP Address 1 (FCINET) DhcpSubnetMask        255.0.0.0            String  
+```
+
   
 
 
