@@ -30,7 +30,8 @@
     * [9. 수동 Failover](rdbms/sql-server/fci/fcifo.md)
 * [Oracle](rdbms/oracle.md)
 * [PostgreSQL](rdbms/postgresql/README.md)
-  * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl.md)
+  * [PostgreSQL Active Standby HA](rdbms/postgresql/pgrepl/README.md)
+    * [1. Azure VM Resource 배포](rdbms/postgresql/pgrepl/vm-resource.md)
   * [PosgreSQL Citus Sharding\(VM\)](rdbms/postgresql/pgcitus.md)
 * [MySQL](rdbms/mysql.md)
 
